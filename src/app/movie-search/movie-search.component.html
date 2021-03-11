@@ -1,0 +1,21 @@
+
+<div class="container">
+<div class="movie-list">
+  <div class="movie"  *ngFor="let movie of movies">
+    <img [src]="'https://image.tmdb.org/t/p/w1280/' + movie?.poster_path" />
+
+    <div class="movie-info">
+      <h3>{{ movie.title }}</h3>
+      <span
+        [ngClass]="{
+          'color-green': movie?.vote_average >= 8,
+          'color-orange': movie?.vote_average >= 5 && movie?.vote_average < 8,
+          'color-red': movie?.vote_average < 5
+        }"
+        >{{ movie.vote_average }}</span
+      >
+    </div>
+  </div>
+</div>
+</div>
+

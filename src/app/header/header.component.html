@@ -1,0 +1,58 @@
+
+  <div class="row">
+    <div class="col">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a href="#" class="navbar-brand">MovieInfo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="btn btn-warning" (click)="popular()">Popular</a> </li>
+          <li class="nav-item"><a class="btn btn-warning" (click)="trending()">Trending</a> </li>
+          <li class="nav-item"><a class="btn btn-warning" (click)="toprated()">Top Rated</a> </li>
+        </ul>
+
+        <div class="navbar-collapse justify-content-end">
+          <input type="search" class="search-text" placeholder="Search Any Movie..." #movieName
+          [(ngModel)]="inputText">
+          <button class="search-button" (click)="fetchMovie(movieName.value)"><i class="fa fa-search" ></i></button>
+        </div>
+      </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!--
+<div class="container">
+  <input #movieName
+  [(ngModel)]="inputText"
+    type="text"
+    class="search-text"
+    placeholder="Search For Any Movie . . . . "
+  />
+
+
+<div class="search-button">
+
+  <button type="button" class="btn" (click)="fetchMovie(movieName.value)" >
+    <i class="fa fa-search" aria-hidden="true"></i>
+  </button>
+</div>
+
+</div> -->
+
+
+
+
+
+
+

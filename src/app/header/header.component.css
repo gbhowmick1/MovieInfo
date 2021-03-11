@@ -1,0 +1,97 @@
+.navbar-brand{
+  padding-left: 0.5rem;
+}
+.nav-item{
+  font-size: large;
+  padding: 1rem;
+}
+.navbar-collapse{
+  padding: 1rem;
+}
+
+.bg-dark{
+  background-color: #373b69 !important;
+}
+
+.row .col .nav .search{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  display: flex;
+  margin: 0 auto;
+  width: 700px;
+  height: 60px;
+  justify-content: center;
+  padding: 1rem 1rem 0 0;
+}
+
+.search-text {
+  background-color: transparent;
+  width: 100%;
+  border: 3px solid #373b69;
+  border-radius: 50px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0rem 0 0 1rem;
+}
+
+.search-button{
+  padding: 1rem;
+  position: relative;
+  top: -16px;
+}
+
+.btn{
+  color: white;
+  background-color: #22254b;
+  padding: 0 0 2rem;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.search-text::placeholder {
+  color: #fff;
+}
+
+.search-text:focus {
+  outline: none;
+}
+
+.search-button :focus{
+  outline: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
