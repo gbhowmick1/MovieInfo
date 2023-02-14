@@ -20,7 +20,11 @@ export class MovieSearchComponent implements OnInit {
         // console.log(this.searchStr);
         this.movieService.searchMovies(this.searchMovie).subscribe((response: any) => {
           this.movies = response.results;
-          console.log(this.movies);
+          this.movies = this.movies.filter(x=> {
+            if(x.backdrop_path !== null){
+              return x;
+            }
+          })
         });
       }
     });
