@@ -15,7 +15,7 @@ export class MovieService {
   }
   searchMovies(searchStr){
     const searchApiUrl = this.SEARCHAPI+ searchStr;
-    console.log(searchApiUrl)
+    //console.log(searchApiUrl)
     return this.http.get(searchApiUrl);
   }
 
