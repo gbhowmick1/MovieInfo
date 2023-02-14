@@ -1,0 +1,21 @@
+heroku error
+-----> Building on the Heroku-20 stack
+ !     No default language could be detected for this app.
+			HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+			See https://devcenter.heroku.com/articles/buildpacks
+ !     Push failed
+ 
+ remedy-
+heroku buildpacks:set heroku/nodejs
+------------------------------------------------------------------------
+error in my app
+internal/modules/cjs/loader.js:834
+
+remedy- npm install
+then check using
+npm start
+then do ng build --prod 
+then deploy on heroku
+--------------------------------------------------------------------------
+This is deprecated as newly deployed to netlify as heroku stop free hosting.
+--------------------------------------------------------------------------

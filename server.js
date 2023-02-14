@@ -9,4 +9,4 @@ app.listen(process.env.PORT || 8080);
 
 // To Deploy heroku create this server.js
 // also write in packag.json file "start": "node server.js" ...
-
+// another way to write Procfile
